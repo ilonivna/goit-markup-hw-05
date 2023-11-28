@@ -621,7 +621,12 @@
             </label>
             <button class="footer-btn" type="submit">
               Subscribe
-              <svg width="24" height="24" viewBox="0 0 24 24">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="subscribe-icon"
+              >
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -630,7 +635,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="close-btn">
           <svg width="8" height="8" viewBox="0 0 8 8" class="close-icon">
@@ -642,7 +647,7 @@
         <form class="modal-form">
           <div class="modal-form-block">
             <label for="user-name" class="form-label">Name</label>
-            <div class="form-input-container">
+            <div class="modal-form-block">
               <input
                 type="text"
                 name="user-name"
