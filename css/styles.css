@@ -727,6 +727,7 @@ border-color: #4D5AE5;
     border-color: #4D5AE5;
 }
 
+
 .checkbox-container {
     margin-bottom: 24px;
 }
@@ -736,6 +737,7 @@ border-color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    display: block;
 
 }
 
@@ -749,10 +751,11 @@ border-color: #4D5AE5;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 
 }
 
-.checkbox-input:checked+.check-icon {
+.checkbox-input:checked+label>span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
